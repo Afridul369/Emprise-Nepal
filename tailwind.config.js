@@ -19,6 +19,7 @@ export default {
         Grey: '#99A3AD',
         Grey2: '#212529',
         Grey3: '#546179',
+        Star: '#f5a623',
       },
       fontFamily: {
         poppins: 'Poppins',
