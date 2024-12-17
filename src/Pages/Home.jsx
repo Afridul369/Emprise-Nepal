@@ -5,6 +5,7 @@ import CategoryPart from '../Layouts/CategoryPart/CategoryPart'
 import TrendingPart from '../Layouts/TrendingPart/TrendingPart'
 import DestinationPart from '../Layouts/DestinationPart/DestinationPart'
 import BestSellerPart from '../Layouts/BestSellerPart/BestSellerPart'
+import GuidePart from '../Layouts/GuidePart/GuidePart'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
     <TrendingPart/>
     <DestinationPart/>
     <BestSellerPart/>
+    <GuidePart/>
     </>
   )
 }
