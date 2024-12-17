@@ -20,6 +20,7 @@ export default {
         Grey2: '#212529',
         Grey3: '#546179',
         Star: '#f5a623',
+        Celeste: '#BCF0EC',
       },
       fontFamily: {
         poppins: 'Poppins',

@@ -6,6 +6,7 @@ import TrendingPart from '../Layouts/TrendingPart/TrendingPart'
 import DestinationPart from '../Layouts/DestinationPart/DestinationPart'
 import BestSellerPart from '../Layouts/BestSellerPart/BestSellerPart'
 import GuidePart from '../Layouts/GuidePart/GuidePart'
+import ExperiencePart from '../Layouts/ExperiencePart/ExperiencePart'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
     <DestinationPart/>
     <BestSellerPart/>
     <GuidePart/>
+    <ExperiencePart/>
     </>
   )
 }
