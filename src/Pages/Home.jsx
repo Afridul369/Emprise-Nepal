@@ -4,6 +4,7 @@ import BannerPart from '../Layouts/BannerPart/BannerPart'
 import CategoryPart from '../Layouts/CategoryPart/CategoryPart'
 import TrendingPart from '../Layouts/TrendingPart/TrendingPart'
 import DestinationPart from '../Layouts/DestinationPart/DestinationPart'
+import BestSellerPart from '../Layouts/BestSellerPart/BestSellerPart'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
     <CategoryPart/>
     <TrendingPart/>
     <DestinationPart/>
+    <BestSellerPart/>
     </>
   )
 }
