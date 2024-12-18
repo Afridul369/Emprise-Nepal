@@ -8,6 +8,8 @@ import BestSellerPart from '../Layouts/BestSellerPart/BestSellerPart'
 import GuidePart from '../Layouts/GuidePart/GuidePart'
 import ExperiencePart from '../Layouts/ExperiencePart/ExperiencePart'
 import SubscribePart from '../Layouts/SubscribePart/SubscribePart'
+import ConcernPart from '../Layouts/ConcernPart/ConcernPart'
+import QuestionPart from '../Layouts/QuestionPart/QuestionPart'
 
 const Home = () => {
   return (
@@ -21,6 +23,8 @@ const Home = () => {
     <GuidePart/>
     <ExperiencePart/>
     <SubscribePart/>
+    <ConcernPart/>
+    <QuestionPart/>
     </>
   )
 }
