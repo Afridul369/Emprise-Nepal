@@ -10,6 +10,7 @@ import ExperiencePart from '../Layouts/ExperiencePart/ExperiencePart'
 import SubscribePart from '../Layouts/SubscribePart/SubscribePart'
 import ConcernPart from '../Layouts/ConcernPart/ConcernPart'
 import QuestionPart from '../Layouts/QuestionPart/QuestionPart'
+import FooterPart from '../Layouts/FooterPart/FooterPart'
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
     <SubscribePart/>
     <ConcernPart/>
     <QuestionPart/>
+    <FooterPart/>
     </>
   )
 }
