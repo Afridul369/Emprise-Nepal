@@ -22,7 +22,7 @@ const DestinationPart = () => {
             <div className="">
                 <Flex className={'justify-between'}>
                     <div className="">
-                        <div className="relative">
+                        <div className="relative hover:scale-105 duration-500">
                             <Image imgSrc={Destinationimg1} imgAlt={'Destinationimg1'} className={'mb-8'}/>
                             <div className="w-[56px] h-8 bg-AntiqWhite rounded-2xl  text-center items-center absolute top-8 left-8">
                                 <Text as={'p'} text={'4.5'} className={'text-Orange text-[18px] font-medium py-1 '}/>
@@ -32,7 +32,7 @@ const DestinationPart = () => {
                                 <Text as={'p'} text={'Waterfall'} className={'text-base  text-white'} />
                             </div>
                         </div>
-                        <div className="relative">
+                        <div className="relative hover:scale-105 duration-500">
                             <Image imgSrc={Destinationimg2} imgAlt={'Destinationimg2'} className={'mb-8'}/>
                             <div className="w-[56px] h-8 bg-AntiqWhite rounded-2xl  text-center items-center absolute top-8 left-8">
                                 <Text as={'p'} text={'4.2'} className={'text-Orange text-[18px] font-medium py-1 '}/>
@@ -43,7 +43,7 @@ const DestinationPart = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="relative">
+                    <div className="relative hover:scale-105 duration-500">
                         <Image imgSrc={Destinationimg3} imgAlt={'Destinationimg3'}/>
                         <div className="w-[56px] h-8 bg-AntiqWhite rounded-2xl  text-center items-center absolute top-8 left-8">
                             <Text as={'p'} text={'4.7'} className={'text-Orange text-[18px] font-medium py-1 '}/>
@@ -54,7 +54,7 @@ const DestinationPart = () => {
                         </div>
                     </div>
                     <div className="">
-                        <div className="relative">
+                        <div className="relative hover:scale-105 duration-500">
                             <Image imgSrc={Destinationimg4} imgAlt={'Destinationimg4'} className={'mb-8'}/>
                             <div className="w-[56px] h-8 bg-AntiqWhite rounded-2xl  text-center items-center absolute top-8 left-8">
                                 <Text as={'p'} text={'4.2'} className={'text-Orange text-[18px] font-medium py-1 '}/>
@@ -65,7 +65,7 @@ const DestinationPart = () => {
                             </div>
                         </div>
                         <Flex className={'justify-between'}>
-                            <div className="relative">
+                            <div className="relative hover:scale-105 duration-500">
                                 <Image imgSrc={Destinationimg5} imgAlt={'Destinationimg4'} className={'mb-8'}/>
                                 <div className="w-[56px] h-8 bg-AntiqWhite rounded-2xl  text-center items-center absolute top-8 left-8">
                                     <Text as={'p'} text={'4.2'} className={'text-Orange text-[18px] font-medium py-1 '}/>
@@ -75,7 +75,7 @@ const DestinationPart = () => {
                                     <Text as={'p'} text={'Waterfall'} className={'text-base  text-white'} />
                                 </div>
                             </div>
-                            <div className="relative">
+                            <div className="relative hover:scale-105 duration-500">
                                 <Image imgSrc={Destinationimg6} imgAlt={'Destinationimg4'} className={'mb-8'}/>
                                 <div className="w-[56px] h-8 bg-AntiqWhite rounded-2xl  text-center items-center absolute top-8 left-8">
                                     <Text as={'p'} text={'4.2'} className={'text-Orange text-[18px] font-medium py-1 '}/>
