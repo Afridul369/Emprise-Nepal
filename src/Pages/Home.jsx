@@ -15,7 +15,6 @@ import FooterPart from '../Layouts/FooterPart/FooterPart'
 const Home = () => {
   return (
     <>
-    <HeaderPart/>
     <BannerPart/>
     <CategoryPart/>
     <TrendingPart/>
@@ -26,7 +25,6 @@ const Home = () => {
     <SubscribePart/>
     <ConcernPart/>
     <QuestionPart/>
-    <FooterPart/>
     </>
   )
 }
