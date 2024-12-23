@@ -9,13 +9,13 @@ import Sellercard2 from '../../assets/sellercard2.png'
 import Sellercard3 from '../../assets/sellercard3.png'
 
 
-const BestSellerPart = () => {
+const BestSellerPart = ({heading}) => {
   return (
     <>
     <div className="py-16">
         <Container>
             <div className="mb-16">
-                <Text as={'h1'} text={'Best Seller'} className={'text-[40px] font-bold text-OxfordBlue mb-4'} />
+                <Text as={'h1'} text={heading} className={'text-[40px] font-bold text-OxfordBlue mb-4'} />
                 <Text as={'h1'} text={'Sost Brilliant reasons Entrada should be your one-stop-shop!'} className={'text-2xl text-Grey3'} />
             </div>
             <Flex className={'justify-between'}>

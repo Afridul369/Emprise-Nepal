@@ -19,7 +19,7 @@ const Home = () => {
     <CategoryPart/>
     <TrendingPart/>
     <DestinationPart/>
-    <BestSellerPart/>
+    <BestSellerPart heading={'Best Seller'}/>
     <GuidePart/>
     <ExperiencePart/>
     <SubscribePart/>

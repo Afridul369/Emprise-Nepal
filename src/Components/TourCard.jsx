@@ -10,7 +10,7 @@ import { FaCheck } from 'react-icons/fa6'
 const TourCard = ({imgSrc,title,description,price}) => {
   return (
     <>
-    <div className="w-[512px] p-5 bg-white rounded-xl shadow-lg">
+    <div className="w-[512px] p-5 bg-white rounded-xl shadow-lg mb-7">
         <Image imgSrc={imgSrc} className={'mb-8'}/>
         <div className="px-5">
             <Flex className={'justify-between items-center mb-4'}>
