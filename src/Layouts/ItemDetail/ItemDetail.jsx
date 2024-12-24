@@ -13,7 +13,7 @@ import QuestionPart2 from '../../Components/QuestionPart2'
 const ItemDetail = () => {
   return (
     <>
-    <div className="pb-28">
+    <div className="pb-12">
         <Container>
             <Flex className={'gap-x-[162px] justify-end'}>
                 <div className="py-6 ">
