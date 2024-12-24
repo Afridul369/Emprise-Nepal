@@ -22,6 +22,8 @@ export default {
         Star: '#f5a623',
         Celeste: '#BCF0EC',
         Border: '#E9ECEF',
+        Barbg: '#fbfbfb',
+        Grey4: '#6C757D',
       },
       fontFamily: {
         poppins: 'Poppins',

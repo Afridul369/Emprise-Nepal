@@ -6,6 +6,7 @@ import Image from './Image'
 import Range from '../assets/range.png'
 import CheckboxStar from './CheckboxStar'
 import Checkbox2 from './Checkbox2'
+import { IoCalendar } from 'react-icons/io5'
 
 
 const SideBarFilter = () => {
@@ -13,9 +14,10 @@ const SideBarFilter = () => {
     <>
     <div className="px-10">
         <div className="px-12 py-9 border border-Border rounded-2xl">
-            <div className="mb-10">
+            <div className="mb-10 relative">
                 <Text as={'p'} text={'When are you traveling?'} className={'text-base font-medium  text-Grey3 mb-2'} />
-                <input type="text" placeholder='Select Start Date' className='p-3 text-base text-Grey border rounded-xl'/>
+                <input type="text" placeholder='Select Start Date' className='py-3 pl-3 pr-16 text-base text-Grey border rounded-xl'/>
+                <IoCalendar className='absolute bottom-3 right-7 text-2xl text-Grey'/>
             </div>
             <div className="mb-10">
                 <Text as={'p'} text={'Popular Tags'} className={'text-base font-medium  text-Grey3 mb-2'} />

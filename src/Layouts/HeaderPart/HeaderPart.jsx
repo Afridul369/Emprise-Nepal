@@ -21,7 +21,9 @@ const HeaderPart = () => {
                     <Link to={'/search'}>
                         <Menu menuname={'Destination'}/>
                     </Link>
-                    <Menu menuname={'Activities'}/>
+                    <Link to={'/tour'}>
+                        <Menu menuname={'Activities'}/>
+                    </Link>
                     <Menu menuname={'Specials'}/>
                     <IoSearch className='text-2xl'/>
                 </ul>
