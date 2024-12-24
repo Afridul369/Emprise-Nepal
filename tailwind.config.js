@@ -25,6 +25,7 @@ export default {
         Barbg: '#fbfbfb',
         Grey4: '#6C757D',
         Cross: '#fa3e2c',
+        Down: '#CED4D9',
       },
       fontFamily: {
         poppins: 'Poppins',

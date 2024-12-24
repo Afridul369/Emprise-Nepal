@@ -3,17 +3,16 @@ import Flex from './Flex'
 import Text from './Text'
 import { BsChevronDown } from 'react-icons/bs'
 
-const ItineraryBar = ({number,Day}) => {
+const QuestionBar = ({mark,Que}) => {
   return (
-    <>
     <div className="px-3 py-6 border rounded-t-3xl bg-Barbg">
-        <Flex className={'gap-x-[500px] items-center justify-between'}>
+        <Flex className={'gap-x-[180px] items-center justify-between'}>
             <div className="">
                 <Flex className={'gap-x-4 items-center'}>
                     <div className="rounded-full w-8 h-8 bg-SeaGreen">
-                        <Text as={'p'} text={number} className={'text-base font-semibold text-Celeste text-center py-1'}/>
+                        <Text as={'p'} text={mark} className={'text-base font-semibold text-Celeste text-center py-1'}/>
                     </div>
-                    <Text as={'p'} text={Day} className={'text-base font-semibold text-Grey2 '}/>
+                    <Text as={'p'} text={Que} className={'text-base font-semibold text-Grey2 '}/>
                 </Flex>
             </div>   
             <div className="">
@@ -21,8 +20,7 @@ const ItineraryBar = ({number,Day}) => {
             </div>   
         </Flex>           
     </div>
-    </>
   )
 }
 
-export default ItineraryBar
+export default QuestionBar
