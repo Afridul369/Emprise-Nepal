@@ -13,8 +13,7 @@ const Itinerary = () => {
         <Flex className={'gap-x-12'}>
             <Image imgSrc={Map} imgAlt={'Map'}/>
             <div className="">
-                <ItineraryBar number={'1'} Day={'Day 1'}/>
-                <ItineraryFeature/>
+                <ItineraryBar number={'1'} Day={'Day 1'}/>        
                 <ItineraryBar number={'2'} Day={'Day 2'}/>
                 <ItineraryBar number={'3'} Day={'Day 3'}/>
                 <ItineraryBar number={'4'} Day={'Day 4'}/>
