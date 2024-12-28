@@ -17,7 +17,6 @@ const RatingPart = () => {
             <Image imgSrc={Rating} imgAlt={'Rating'}/>
             <div className="">
                 <RatingBar photo={Badge1} name={"Brooklyn Simmons"}/>
-                <RatingFeature title={'“Exceptional”'}/>
                 <RatingBar photo={Badge2} name={"Wade Warren"}/>
                 <RatingFeature title={'“Terrific”'}/>
                 <RatingBar photo={Badge3} name={"Leslie Alexander"}/>

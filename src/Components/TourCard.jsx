@@ -23,7 +23,10 @@ const TourCard = ({imgSrc,title,description,price}) => {
             <Text as={'p'} text={'from'} className={'text-sm font-poppins text-Grey3 mb-1'}/>
             <Flex className={'justify-between mb-10'}> 
                 <div className="">
-                    <Text as={'p'} text={price} className={'text-[32px] font-poppins font-semibold text-OxfordBlue mb-1 border-b-2 border-Orange inline-block'}/>
+                    <div className="relative z-20">
+                        <Text as={'p'} text={price} className={'text-[32px] font-poppins font-semibold text-OxfordBlue mb-1'}/>
+                        <span className='w-full h-1 bg-Orange  absolute bottom-3 left-0 opacity-80 -z-10'></span>
+                    </div>
                     <Text as={'p'} text={'*Price varies'} className={'text-sm font-poppins text-Grey3 mb-3'}/>
                 </div>
                 <div className="">
