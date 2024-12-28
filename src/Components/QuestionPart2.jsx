@@ -14,7 +14,6 @@ const QuestionPart2 = () => {
             <Image imgSrc={Question} imgAlt={'Question'}/>
             <div className="">
                 <QuestionBar mark={'?'} Que={'What type of clothing are suitable for this trek?'}/>
-                <QuestionFeature/>
                 <QuestionBar mark={'?'} Que={'What type of clothing are suitable for this trek?'}/>
                 <QuestionBar mark={'?'} Que={'What type of clothing are suitable for this trek?'}/>
                 <QuestionBar mark={'?'} Que={'What type of clothing are suitable for this trek?'}/>
