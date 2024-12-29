@@ -33,9 +33,7 @@ const CategoryPart = () => {
                     <Text as={'h1'} text={'Select Category'} className={'text-[40px] font-poppins mb-4 font-bold text-OxfordBlue'} />
                     <Text as={'p'} text={'Sost Brilliant reasons Entrada should be your one-stop-shop!'} className={'text-2xl font-poppins text-Grey3'} />
                 </div>
-            </Flex>
-            {/* <Flex className={'gap-x-10'}>    */}
-
+            </Flex>           
             <Slider {...settings}>
                 <ActivityCard Badgetitle={'4.9'} Cardimg={Beach} title={'Beach Activity'}/>
                 <ActivityCard Badgetitle={'4.5'} Cardimg={Bungee} title={'Bungee Jump'}/>
@@ -43,11 +41,6 @@ const CategoryPart = () => {
                 <ActivityCard Badgetitle={'4.8'} Cardimg={Backpack} title={'Hiking trips'}/>
                 <ActivityCard Badgetitle={'4.8'} Cardimg={Jungle} title={'Jungle'}/>
              </Slider>
-
-
-            {/* </Flex> */}
-
-
         </Container>
    </div>
    </>
