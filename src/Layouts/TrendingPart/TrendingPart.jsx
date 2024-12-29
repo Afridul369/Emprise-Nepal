@@ -7,6 +7,7 @@ import Tourimg1 from '../../assets/tourimg1.png'
 import Tourimg2 from '../../assets/tourimg2.png'
 import Tourimg3 from '../../assets/tourimg3.png'
 import Tourimg4 from '../../assets/tourimg4.png'
+import Badge2 from '../../Components/Badge2'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 
@@ -31,14 +32,12 @@ const TrendingPart = () => {
                     <Text as={'p'} text={'Sost Brilliant reasons Entrada should be your one-stop-shop!'} className={'text-2xl font-poppins text-Grey3'} />
                 </div>
             </Flex>
-            {/* <Flex className={'justify-between'}> */}
             <Slider {...settings}>
-                <TourCard imgSrc={Tourimg1} title={'Mountain Hiking Tour'} description={'Hiking Tour | Stoke on Trent'} price={'$895.00'}/>
+                <TourCard imgSrc={Tourimg1} icon={<Badge2 text={'30%'} className={'absolute top-10 '}/>} title={'Mountain Hiking Tour'} description={'Hiking Tour | Stoke on Trent'} price={'$895.00'}/>
                 <TourCard imgSrc={Tourimg2} title={'Train Tour Skyline'} description={'Hiking Tour | Stoke on Trent'} price={'$895.00'}/>
-                <TourCard imgSrc={Tourimg3} title={'Forest Wild Life'} description={'Hiking Tour | Stoke on Trent'} price={'$895.00'}/>
+                <TourCard imgSrc={Tourimg3} icon={<Badge2 text={'40%'} className={'absolute top-10 '}/>} title={'Forest Wild Life'} description={'Hiking Tour | Stoke on Trent'} price={'$895.00'}/>
                 <TourCard imgSrc={Tourimg4} title={'Forest Wild Life'} description={'Hiking Tour | Stoke on Trent'} price={'$895.00'}/>
-                </Slider>
-            {/* </Flex> */}
+            </Slider>
         </Container>
     </div>
     </>

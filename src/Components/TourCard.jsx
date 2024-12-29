@@ -7,7 +7,7 @@ import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { CiClock2 } from "react-icons/ci";
 import { FaCheck } from "react-icons/fa6";
 
-const TourCard = ({ imgSrc, title, description, price }) => {
+const TourCard = ({ imgSrc, title, description, price, icon }) => {
 
   const [Abir, setAbir] = useState(false);
 
@@ -19,6 +19,7 @@ const TourCard = ({ imgSrc, title, description, price }) => {
     <>
     <div className="w-[512px] p-5 bg-white rounded-xl shadow-lg mb-7">
         <Image imgSrc={imgSrc} className={"mb-8"} />
+        {icon}
         <div className="px-5">
           <Flex className={"justify-between items-center mb-4"}>
                 <div className="">

@@ -19,9 +19,9 @@ const BestSellerPart = ({heading}) => {
                 <Text as={'h1'} text={'Sost Brilliant reasons Entrada should be your one-stop-shop!'} className={'text-2xl text-Grey3'} />
             </div>
             <Flex className={'justify-between'}>
-                <SellerCard image={Sellercard1} icon={<Badge2 text={'30%'} />} title={'Train Tour Skyline'} description1={'Check Out Daily Deals and Promotion on Hotels.'} description2={'Easy & Fast Booking'}/>
-                <SellerCard image={Sellercard2} icon={<Badge2 text={'40%'} />} title={'Sea Nature Views'} description1={'Check Out Daily Deals and Promotion on Hotels.'} description2={'Easy & Fast Booking'}/>
-                <SellerCard image={Sellercard3} icon={<Badge2 text={'50%'} />} title={'Trilogy Market Ptr'} description1={'Check Out Daily Deals and Promotion on Hotels.'} description2={'Easy & Fast Booking'}/>    
+                <SellerCard image={Sellercard1} icon={<Badge2 text={'30%'} className={'absolute top-7 left-[420px]'}/>} title={'Train Tour Skyline'} description1={'Check Out Daily Deals and Promotion on Hotels.'} description2={'Easy & Fast Booking'}/>
+                <SellerCard image={Sellercard2} icon={<Badge2 text={'40%'} className={'absolute top-7 left-[420px]'}/>} title={'Sea Nature Views'} description1={'Check Out Daily Deals and Promotion on Hotels.'} description2={'Easy & Fast Booking'}/>
+                <SellerCard image={Sellercard3} icon={<Badge2 text={'50%'} className={'absolute top-7 left-[420px]'}/>} title={'Trilogy Market Ptr'} description1={'Check Out Daily Deals and Promotion on Hotels.'} description2={'Easy & Fast Booking'}/>    
             </Flex>
         </Container>
     </div>
