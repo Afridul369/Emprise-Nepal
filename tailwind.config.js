@@ -12,6 +12,7 @@ export default {
       colors: {
         OxfordBlue: '#1D293F',
         SeaGreen: '#28B0A6',
+        LightSeaGreen: '#eaf5f4',
         AntiqWhite: '#FEF2DE',
         Orange: '#F5A623',
         Pink1: '#F9C7D2',
@@ -22,10 +23,14 @@ export default {
         Star: '#f5a623',
         Celeste: '#BCF0EC',
         Border: '#E9ECEF',
+        Border2: '#DCE5EB',
         Barbg: '#fbfbfb',
         Grey4: '#6C757D',
         Cross: '#fa3e2c',
         Down: '#CED4D9',
+        Red: '#FA3E2C',
+        Orange: '#ff9e4b',
+        Pink: '#fb1a6b',
       },
       fontFamily: {
         poppins: 'Poppins',

@@ -65,7 +65,7 @@ const HeaderPart = () => {
                 type="text"
                 placeholder="Search"
                 id="searchbar"
-                className="border pl-5 pr-48 py-3 border-Border rounded-xl text-lg"
+                className="border pl-5 pr-48 py-3 border-Border rounded-xl text-lg hidden"
               />
             </ul>
             <Flex className={"gap-x-3 ml-auto"}>
