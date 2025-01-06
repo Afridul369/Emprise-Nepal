@@ -37,7 +37,7 @@ const TourCard = ({ imgSrc, title, description, price, icon }) => {
                     />
                 </div>
                 <div
-                    className=" p-2 rounded-full bg-gray-100 cursor-pointer"
+                    className=" cursor-pointer"
                     onClick={handleclick}
                     >
                     {Abir ? (

@@ -34,6 +34,8 @@ const CategoryPart = () => {
                     <Text as={'p'} text={'Sost Brilliant reasons Entrada should be your one-stop-shop!'} className={'text-2xl font-poppins text-Grey3'} />
                 </div>
             </Flex>           
+        </Container>
+        <div className="max-w-[1650px] mx-auto">
             <Slider {...settings}>
                 <ActivityCard Badgetitle={'4.9'} Cardimg={Beach} title={'Beach Activity'}/>
                 <ActivityCard Badgetitle={'4.5'} Cardimg={Bungee} title={'Bungee Jump'}/>
@@ -41,7 +43,7 @@ const CategoryPart = () => {
                 <ActivityCard Badgetitle={'4.8'} Cardimg={Backpack} title={'Hiking trips'}/>
                 <ActivityCard Badgetitle={'4.8'} Cardimg={Jungle} title={'Jungle'}/>
              </Slider>
-        </Container>
+        </div>
    </div>
    </>
   )

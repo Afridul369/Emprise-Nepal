@@ -32,13 +32,15 @@ const TrendingPart = () => {
                     <Text as={'p'} text={'Sost Brilliant reasons Entrada should be your one-stop-shop!'} className={'text-2xl font-poppins text-Grey3'} />
                 </div>
             </Flex>
+        </Container>
+        <div className="max-w-[1650px] mx-auto">
             <Slider {...settings}>
                 <TourCard imgSrc={Tourimg1} icon={<Badge2 text={'30%'} className={'absolute top-10 '}/>} title={'Mountain Hiking Tour'} description={'Hiking Tour | Stoke on Trent'} price={'$895.00'}/>
                 <TourCard imgSrc={Tourimg2} title={'Train Tour Skyline'} description={'Hiking Tour | Stoke on Trent'} price={'$895.00'}/>
                 <TourCard imgSrc={Tourimg3} icon={<Badge2 text={'40%'} className={'absolute top-10 '}/>} title={'Forest Wild Life'} description={'Hiking Tour | Stoke on Trent'} price={'$895.00'}/>
                 <TourCard imgSrc={Tourimg4} title={'Forest Wild Life'} description={'Hiking Tour | Stoke on Trent'} price={'$895.00'}/>
             </Slider>
-        </Container>
+        </div>
     </div>
     </>
   )

@@ -69,8 +69,12 @@ const HeaderPart = () => {
               />
             </ul>
             <Flex className={"gap-x-3 ml-auto"}>
-              <Button1 text={"Login"} />
-              <Button1 text={"Sign Up"} />
+              <Link to={"/login"}>
+                <Button1 text={"Login"} />
+              </Link>
+              <Link to={"/signup"}>
+                <Button1 text={"Sign Up"} />
+              </Link>
             </Flex>
           </Flex>
         </Container>
